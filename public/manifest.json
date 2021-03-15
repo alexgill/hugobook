@@ -1,0 +1,9 @@
+{
+  "name": "First Hugo Site w MEAP",
+  "short_name": "First Hugo Site w MEAP",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#71B180",
+  "background_color": "#71B180",
+  "display": "standalone"
+}

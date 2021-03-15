@@ -1,7 +1,8 @@
 baseURL: http://adar81.lan
 languageCode: en-us
 title: First Hugo Site w MEAP
-theme: Eclectic
+# theme: Eclectic
+theme: Universal
 
 author:
   facebook: "https://facebook.com/asdf"
