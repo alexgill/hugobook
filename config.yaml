@@ -1,8 +1,8 @@
 baseURL: http://adar81.lan
 languageCode: en-us
 title: First Hugo Site w MEAP
-# theme: Eclectic
-theme: Universal
+theme: Eclectic
+# theme: Universal
 
 author:
   facebook: "https://facebook.com/asdf"
@@ -23,6 +23,7 @@ menu:
       name: Contact
       url: /contact
       weight: 2
+
 params:
   color: "#71B180"
   copyright: "Copyright &copy; 2021 Tekwerx Corp.  All Rights Reserved."
@@ -34,4 +35,11 @@ params:
       recentCount: 7
     - title: Contact Us
       contact: true
-
+        
+# params:
+#   style: red
+#   logo: /image/logo.png
+#   logo_small: /image/logo.png
+#   about_us: "Tekwerx a provider of customized technology applications for home and residential."
+#   recent_posts:
+#     enable: true
