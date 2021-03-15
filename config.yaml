@@ -1,3 +1,36 @@
-baseURL: http://example.org/
+baseURL: http://adar81.lan
 languageCode: en-us
-title: My New Hugo Site
+title: First Hugo Site w MEAP
+theme: Eclectic
+
+author:
+  facebook: "https://facebook.com/asdf"
+  twitter: "https://twitter.com/example"
+  email: "ag@alexgill.com"
+  name: "Acme Corp"
+  location: NYC
+  phone: (212) 555-1212
+  hours: "**Monday-Friday:** 9:00AM - 6:00PM, ET"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 1
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 2
+params:
+  color: "#71B180"
+  copyright: "Copyright &copy; 2021 Tekwerx Corp.  All Rights Reserved."
+  footer:
+    - title: About
+      content: "Tekwerx a provider of customized technology applications for home and residential."
+    - title: Recent Blog Posts
+      recent: blog
+      recentCount: 7
+    - title: Contact Us
+      contact: true
+
